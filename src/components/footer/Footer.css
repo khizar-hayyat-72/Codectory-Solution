@@ -1,0 +1,111 @@
+.footer{
+    margin-top: 35%;
+    background-image: url('./map.png');
+    
+}
+.col-heading{
+    color:#0e314c;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.First-col p{
+    margin-top: 5%;
+    color: #4a6f8a ;
+    font-weight: 500;
+}
+
+.Second-Col ul{
+    padding-left: 0px;
+}
+
+.Second-Col ul li {
+    padding-top: 5px;
+    list-style-type: none;
+    
+}
+
+.Second-Col ul li a{
+    color: #4a6f8a;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.7rem 1rem 1rem 1rem;
+    text-decoration: none;
+    padding: 0;
+}
+
+.Second-Col ul li a:visited{
+    color: #4a6f8a;
+}
+
+.Second-Col ul li a:hover{
+    color: #d80000;
+}
+
+.col-4-content{
+    color: #4a6f8a;
+    font-weight : 500;
+}
+
+.Third-Col ul{
+    padding-left: 0px;
+}
+.Third-Col ul li {
+    
+    
+    list-style-type: none;
+}
+
+.Third-Col ul li a{
+    color: #4a6f8a;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.7rem 1rem 1rem 1rem;
+    text-decoration: none;
+    padding: 0;
+}
+
+.Third-Col ul li a:visited{
+    color: #4a6f8a;
+}
+
+.Third-Col ul li a:hover{
+    color: #d80000;
+}
+
+.Email a{
+    text-decoration: none;
+    color: #4a6f8a;
+}
+
+.Email a:hover{
+    color: #d80000;
+}
+.Phone a{
+    text-decoration: none;
+    color: #4a6f8a;
+}
+
+.Phone a:hover{
+    color: #d80000;
+}
+
+.copyright-area {
+    font-weight: 500;
+    margin-top: 80px;
+    border-top: 1px solid #d8ebfd;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color : #4a6f8a; 
+  }
+
+  p,span ,p a {
+    text-decoration: none;
+    color : #4a6f8a;
+  }
+
+p a:hover{
+    color : #d80000;
+
+}

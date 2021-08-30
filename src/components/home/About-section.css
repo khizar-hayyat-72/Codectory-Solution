@@ -1,0 +1,41 @@
+.about-img{
+    margin-top:10%;
+    margin-left: -10rem;
+}
+.about-content{
+    color: #0e314c;
+    margin-top: 15%;
+    margin-left: auto;      
+}
+.about-content h2{
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+.sub-title-about{
+    color: #0e314c;
+    background-color: #f5dffd;
+    margin-bottom: 18px;
+    border-radius: 30px;
+    padding: 7px 31px 6px;
+    font-size: 13px;
+    align-content: left;
+ 
+   
+}
+p{
+    margin-bottom: 12px;
+}
+
+.button{
+    border-color: transparent;
+    background-color: #CC3300;
+    margin: 15px 15px 15px 0px;
+    color: white;
+    padding: 13px 30px;
+    box-shadow: 5px 5px 5px #a6f5be;
+    font-weight: bold;
+}
+.button:hover{
+    box-shadow : 5px 5px 5px #e9caf5;
+    background-color: black;
+}
