@@ -7,7 +7,7 @@ import About from './components/about/About';
 import Services from './components/services/Services';
 import Projects from './components/projects/Project';
 import Contact from './components/contact/Contact';
-
+import Footer from './components/footer/Footer'
 
 
 
@@ -26,6 +26,7 @@ function App() {
                 <Route exact path="/contact"   component={Contact} />
               </Switch>
            </Router>
+           <Footer/>
         </div>
 
         

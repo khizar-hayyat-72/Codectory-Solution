@@ -61,7 +61,7 @@ return (
                     <p>Our web development team crafts beautiful yet responsive websites and web applications based on your requirements that will help address your business needs using the power of the world wide web. The web solutions provide comprehensive analytical dashboards as you desire.</p>
                 </Col>
                 <Col lg={3} md={6} sm={12} className='row-3-data'>
-                    <img src={pic4} width='114' height='109' alt='Codectory'></img><br></br>
+                    <img src={pic4} width='114' height='109' alt='Codectory' className='servicesimge'></img><br></br>
                     <a href ='#'>Branding & Marketing</a>
                     <p>Our team of digital media marketers can take your marketing, Search Engine Optimization (SEO) and Social Media Marketing (SMM) campaigns to the next level. Our dedicated digital marketing experts help our clients effectively target exactly the audience that is desired following the best strategies.</p>
                 </Col>
@@ -70,7 +70,7 @@ return (
             {/*Row-4*/}
             <Row>
                 <Col className='row4-head mt-5'>
-                    <span className='offer-button'><a href='#'>What We Offer <FaFacebook/> </a></span>
+                    <span className='offer-button'><a href='#'>Our Services </a></span>
                    
                 </Col>    
             </Row>
@@ -84,7 +84,7 @@ return (
 
             {/* Row-6*/}
                 <Row className='row6'>
-                    <Col lg={12}>
+                    <Col lg={12} md={12} sm={12} xs={12} >
                                 <h1 className='row-6-heading'>Do you have any projects?</h1> 
                                 <div >
                                     <button className = 'btn-row-6' >contact us</button>
@@ -94,11 +94,7 @@ return (
                 </Row> 
 
             {/*Row-7*/}
-                <Row>
-                    <Col>
-                        <Footer/>    
-                    </Col>
-                </Row>
+                
         </Container>
       
     </>

@@ -8,7 +8,7 @@ const About = () =>{
         <>
             <Container>
                 <Row className='about-row'>
-                    <Col lg={6} md={6} sm={12} className='about-img'> 
+                    <Col lg={6} md={12} sm={12} className='about-img'> 
                         <img src={about}></img>
                     </Col>
                     <Col lg={6} md={6} sm={12} className='about-content'>

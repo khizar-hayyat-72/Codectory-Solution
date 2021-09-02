@@ -1,5 +1,5 @@
 .footer{
-    margin-top: 35%;
+    margin-top: 5%;
     background-image: url('./map.png');
     
 }
@@ -108,4 +108,12 @@
 p a:hover{
     color : #d80000;
 
+}
+
+
+@media (max-width : 991px) {
+    .footer{
+        margin-top: 10px;
+        
+    }
 }

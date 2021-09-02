@@ -121,13 +121,11 @@
 /*Row-6 Section-6*/
 
 .row6{
-    width: 100%;
-
+    max-width: 100%;
     margin-top: 5%;
-    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     left: 0px;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -186,6 +184,34 @@
     }
 
 }
-@media(max-width: 578px){
-  
+@media(max-width: 991px){
+    .col-1-content{
+        text-align: center;
+    }
+    .row-1-banner{
+        align-items: center;
+      width: 560px;
+      height: 510px;
+  }
+  .sub-title{
+    margin-left: 38%;
+    margin-right: 35%;
+  }
+  .offer-button a{
+    margin-left: 35%;
+  }
+  .btn-row-6{
+     margin-left: 35%;
+  }
+}
+@media (max-width : 767px) {
+    .sub-title{
+        margin-left: 35%;
+        margin-right: 35%;
+      }
+    .servicesimge{
+    align-items: center;
+      width: 560px;
+      height: 510px;
+    }
 }

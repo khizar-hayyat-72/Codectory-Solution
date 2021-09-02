@@ -39,3 +39,32 @@ p{
     box-shadow : 5px 5px 5px #e9caf5;
     background-color: black;
 }
+
+
+@media (max-width: 991px) {
+    .about-img{
+        width: 550px;
+        height:500px;
+        margin-left: -1rem;
+    }
+    .sub-title-about{
+        margin-left: 35%;
+    }
+    .about-content{
+        margin-top: 25%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    .about-content h2{
+        font-size: 25px;;
+    }
+    .about-content p,h2{
+        text-align: justify;
+    }
+    .button{
+        margin-left: 29%;
+        font-size: 12px;
+    }
+   
+}

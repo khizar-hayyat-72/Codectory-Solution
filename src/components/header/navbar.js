@@ -1,18 +1,30 @@
-import React from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import { Navbar, Container, Nav} from 'react-bootstrap'
 import {NavLink} from 'react-router-dom';
 import './navbar.css';
 import logo from './logo.png';
 
 
-const header = () => {
-
-    const h = window.clientHeight; 
-    console.log(h)
+const Header = () => {
+    const [navBackground, setNavBackground] = useState(false)
+    const navRef = useRef()
+    navRef.current = navBackground
+    useEffect(() => {
+      const handleScroll = () => {
+        const show = window.scrollY > 50
+        if (navRef.current !== show) {
+          setNavBackground(show)
+        }
+      }
+      document.addEventListener('scroll', handleScroll)
+      return () => {
+        document.removeEventListener('scroll', handleScroll)
+      }
+    }, [])
 
     return(
         <>
-            <Navbar collapseOnSelect className='header navbar navbar-expand-md'   expand="lg"  sticky="top"> 
+            <Navbar collapseOnSelect className='header navbar navbar-expand-md' style={{ transition: '1s ease',backgroundColor: navBackground ? 'white' : 'transparent'}}  expand="lg"  sticky="top"> 
                 <Container>
                     <Navbar.Brand href="#home">
                         <img
@@ -24,10 +36,10 @@ const header = () => {
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Collapse id="responsive-navbar-nav ">
                         <Nav className="me-auto">
                             <div>
-                                <ul className='nav '>
+                                <ul className='nav'>
                                     <li className='nav-item'>
                                         <NavLink to="/" className='nav-link'>Home</NavLink>
                                     </li>
@@ -58,4 +70,4 @@ const header = () => {
 };
 
 
-export default header;
+export default Header;

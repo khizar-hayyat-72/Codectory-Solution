@@ -3,10 +3,7 @@ import './Footer.css';
 import {Container,Row,Col} from 'react-bootstrap';
 import logo from './logo.png'
 import {FaFacebook} from "react-icons/fa";
-import {FiFacebook} from "react-icons/fa";
-import {SiInstagram} from "react-icons/fa";
-import {RiTwitterLine} from "react-icons/fa";
-import {FaLinkedinIn} from "react-icons/fa";
+
 
 const Footer = () => {
     return(
@@ -48,7 +45,7 @@ const Footer = () => {
                         <p>Phone :  <a href='tel:+923114112960' className='footer-contact'>+92 311 4112960</a></p>
                     </div>
                     <div>
-                        <FaFacebook/>    
+                       
                     </div>
                 </Col>
             </Row>
