@@ -154,6 +154,10 @@
 }
 
 @media(max-width: 768px){
+    
+    .col-1{
+        margin-top: 0;
+    }
     .col-1-content{
         text-align: center;
     }
@@ -182,9 +186,23 @@
         margin-left: 35%;
         margin-right: 35%;
     }
+    .row6{
+        margin-bottom: 5rem;
+    }
+    .sub-title{
+        margin-left: 35%;
+        margin-right: 35%;
+      }
+    .row-6-heading{
+        font-size: 25px;
+      }
+    .btn-row-6{
+        margin-left: 9rem;
+      }
 
 }
 @media(max-width: 991px){
+   
     .col-1-content{
         text-align: center;
     }
@@ -200,18 +218,17 @@
   .offer-button a{
     margin-left: 35%;
   }
+  .row6{
+    margin-bottom: 5rem;
+}
   .btn-row-6{
      margin-left: 35%;
   }
+  .row-6-heading{
+    font-size: 25px;
+  }
+
 }
 @media (max-width : 767px) {
-    .sub-title{
-        margin-left: 35%;
-        margin-right: 35%;
-      }
-    .servicesimge{
-    align-items: center;
-      width: 560px;
-      height: 510px;
-    }
+  
 }

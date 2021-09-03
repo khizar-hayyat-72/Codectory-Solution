@@ -68,3 +68,14 @@ p{
     }
    
 }
+
+@media (max-width: 767px) {
+    .about-img1{
+        width: 500px;
+        height:400px;
+    }
+    .about-content{
+        margin-top: 0;
+    }
+    
+}

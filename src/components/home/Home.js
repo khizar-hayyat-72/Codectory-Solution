@@ -7,8 +7,7 @@ import pic2 from './2.png'
 import pic3 from './3.png'
 import pic4 from './4.png'
 import About_section from './About-section'
-import Footer from '../footer/Footer'
-import {FaFacebook} from "react-icons/fa";
+
 
 
 const Home = () => {

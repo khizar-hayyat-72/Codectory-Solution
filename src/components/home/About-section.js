@@ -9,7 +9,7 @@ const About = () =>{
             <Container>
                 <Row className='about-row'>
                     <Col lg={6} md={12} sm={12} className='about-img'> 
-                        <img src={about}></img>
+                        <img src={about} className='about-img1'></img>
                     </Col>
                     <Col lg={6} md={6} sm={12} className='about-content'>
                         <div className='about-content'>
